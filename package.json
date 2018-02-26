@@ -1,0 +1,23 @@
+{
+  "name": "qingtingfm",
+  "version": "1.0.0",
+  "description": "个人测试",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . 蜻蜓fm --all --all --version=1.0.0 --overwrite --icon=./logo.ico"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.8.2"
+  }
+}
